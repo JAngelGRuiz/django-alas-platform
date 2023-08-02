@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Course, Discount, Type, Subject, Classes
+from .models import Course, Discount, Course_Type, Subject, Lesson
 
 # Register your models here.
-admin.site.register([Course, Discount, Type, Subject, Classes])
+admin.site.register([Course, Discount, Course_Type, Subject, Lesson])
