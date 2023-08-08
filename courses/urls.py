@@ -10,5 +10,4 @@ router.register(r"type/course", CourseTypeView, "course_types")
 
 urlpatterns = [
     path("", include(router.urls)),
-    path("docs/", include_docs_urls(title="Alas API")),
 ]
